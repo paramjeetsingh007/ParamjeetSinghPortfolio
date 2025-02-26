@@ -56,7 +56,7 @@ function Navbar() {
 
       {/* Mobile Sidebar Menu */}
       {open && (
-        <div className="fixed top-0 right-0 w-[250px] h-screen bg-primary text-link flex flex-col items-center space-y-10 py-10 transition-all duration-300 z-40">
+        <div className="fixed top-10 right-0 w-[250px] h-screen bg-primary text-link flex flex-col items-center space-y-10 py-10 transition-all duration-300 z-40">
           {menuItems.map((item, index) => (
             <ul key={index}>
               <li className="text-link relative group mt-5">
