@@ -45,13 +45,14 @@ function Home() {
             </a>
           </div>
         </div>
-        <div className=" w-[40%] sm:p-8 hover:transition hover:ease-in-out hover:scale-105">
-          <img
-            src="/portfolio img.avif"
-            alt="portfolio"
-            className="w-[250px] h-[250px] sm:w-[400px] sm:h-[400px] rounded-lg"
-          />
-        </div>
+        <div className="w-full md:w-1/2 lg:w-[40%] p-4 sm:p-8 hover:transition hover:ease-in-out hover:scale-105">
+  <img
+    src="/param.jpg"
+    alt="portfolio"
+    className="w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] rounded-full md:rounded-full lg:rounded-full mx-auto"
+  />
+</div>
+
       </div>
     </>
   );
